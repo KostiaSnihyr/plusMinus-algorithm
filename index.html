@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>plusMinus algorithm</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <h1>plusMinus algorithm</h1>
+        
+        <div class="input-button">
+            <div class="input-wrapper">
+                <input id="inputVal" type="text">
+                <p>do not use "0", only of 1 to 9</p>
+            </div>
+            <div class="button-wrapper">
+                <button id="test" class="test-button">Test</button>
+            </div>
+        </div>
+    
+        <p><span>1.</span> Type in <span>"2233"</span> and you will get result <span>"-+-"</span> because <span>2-2+3-3=0</span>;</p>
+        <p><span>2.</span> If you type in <span>"22331"</span> a result will be <span>"not possible"</span> because it is impossible to plus/minus all these numbers and get 0;</p>
+        <p><span>3.</span> Try different combimations to understand how algorithm work. For exmaple <span>"1236", "693", "5555"</span> etc.;</p>
+
+        <br>
+
+        <h2>Result:</h2>
+        <p id="result" class="result"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
